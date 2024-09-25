@@ -1,16 +1,82 @@
 # 功能升级日志
 
 #  计划 
+# 2.21.1
+- 😄 优化：dall格式图片本地存储（flex,idemgram 不会图片链接过期而找不到 ）
+- 😄 优化：kling图片本地存储
+
+# 2.20.10
+- 😄 新增：模型 `o1-preview` `o1-mini`
+
+# 2.20.9
+- 🐞 修复：kling 图片提交
+- 😄 新增：可灵 kling 的镜头运用
+
+# 2.20.8
+- 😄 新增：可灵 kling 视频 绘图模块
+
+# 2.20.7
+- 😄 新增：runway 可以 extend
+- 🐞 修复：ideogram 清空
+
+# 2.20.6
+- 😄 新增： 画图 ideogram 相关模块
+
+# 2.20.5
+- 😄 新增： flux 相关模型的dall.e格式
+- 🐞 修复：claude-3-5，maxtoken问题 #495
+
+# 2.20.4
+- 🐞 修复：更新了背景图版本后。聊天窗口内容上下滚动有时候会失效，要重新刷新页面才能滚动 #490
+- 🐞 修复：docker部署能不用在编排的时候填写key
+
+# 2.20.3
+- 🤖 合并： 新增自定义背景图片 #488 @Yanyutin753
+- 💄 合并： 优化文件上传样式 #487 @Yanyutin753
+- 💄 合并： AUTH_SECRET_KEY 新增多密钥支持，使用,隔开 #484 @Yanyutin753 
+- 😄 新增： runway Gen3a Turbo
+- 😄 新增： UI服务端 同步 `runway` `viggle` 设置
+
+# 2.20.2
+- 😄 新增：gemini-1.5-pro-exp-0801
+- 😄 新增：chatgpt-4o-latest
+
+# 2.20.1
+- 😄 新增：gpt-4o-2024-08-06
+
+# 2.19.10
+- 😄 新增：视频 runway gen3 支持图片
+- 😄 新增：mj 6.1选项
+- 😄 新增：runway-gen3-fast 选项
+- 🐞 修复：LUMA_SERVER 出现标签选项
+
+# 2.19.9
+- 🐞 修复：luma 说明
+- 🐞 修复：Midjourney生图后，保留prompt在输入框中 #468
+
+# 2.19.8
+- 🐞 修复：runway 过期.重新获取
+
+# 2.19.7
+- 😄 新增：视频 runway 模块
+- 🐞 修复：gpt-4o-mini 图片问题
+- 🐞 修复：luma 说明
+ 
+
+# 2.19.6
+- 😄 新增：gpt-4o-mini模型
+- 🐞 修复：viggle 下载有问题
+
 # 2.19.5
 - 🐞 修复：后续会有luma尾帧么 #452
--
+- 😄 新增：viggle pro 跟 relax 能相互切换
 
 # 2.19.4
 - 🐞 修复：luma pro 与 relax版本切换 获取任务有问题
-- 😄 新增：viggle pro 跟 relax 能相互切换
+
 
 # 2.19.3
-- 🐞 修复：viggle个人上传视频无效
+- 🐞 修复：viggle 个人上传视频无效
 
 # 2.19.2
 - 😄 新增：跳舞视频viggle模块

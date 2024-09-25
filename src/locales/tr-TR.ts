@@ -60,6 +60,7 @@ export default {
         avatarLink: 'Avatar Bağlantısı',
         name: 'Ad',
         description: 'Açıklama',
+        backgroundImage: 'Arka Plan',
         role: 'Rol',
         temperature: 'Sıcaklık',
         top_p: 'Top_p',
@@ -192,7 +193,34 @@ export default {
 
         subtle: 'Haute définition 2x'
         ,creative: 'Haute définition 2x. Créatif'
-        ,gpt_gx: 'Les GPT utilisent g-*'
+        ,gpt_gx: 'Les GPT utilisent g-*',
+
+        "ideoabout": "Ideogram Hakkında",
+        "ideoserver": "Ideogram Sunucusu",
+        "ideokeyPlaceholder": "Ideogram için API Anahtarı (isteğe bağlı)",
+        "ideopls": "Görüntü açıklama ipuçları",
+        "nohead": "Dahil değil",
+
+        klingabout: 'Kling Hakkında',
+        klingserver: 'Kling API Adresi',
+        klingkeyPlaceholder: 'Kling API Anahtarı (isteğe bağlı)',
+        klingkey: 'Kling Anahtarı',
+        mode: 'Mod',
+        duration: 'Süre',
+        negative_prompt: 'Nesne içermeyen metni buraya yerleştirin',
+        std: 'Yüksek Performans',
+        pro: 'Yüksek Kalite',
+        needImg: 'Etki etmesi için lütfen bir referans resmi yükleyin!',
+        seed: 'Tohum numarası 1~2147483647',
+        klingInfo: 'Açıklama: <li>1. Yüksek kalite fiyatın 3.5 katıdır</li> <li>2. 10 saniye fiyatın 2 katıdır</li> <li>3. Son kare etkili olması için bir referans resmine sahip olmalıdır</li>'
+    
+        ,"camera_type": "Lens",
+        "cnull": "Akıllı eşleştirme",
+        "down_back": "Aşağı ve geri git",
+        "forward_up": "İleri it ve yukarı kaldır",
+        "right_turn_forward": "Sağa dön ve ileri git",
+        "left_turn_forward": "Sola dön ve ileri git"
+        ,kling:'Kling'
     },
     "mjset": {
         "server": "Sunucu",
@@ -357,6 +385,7 @@ export default {
 		},
 		versionList: {
 			mjV6: "MJ V6",
+			mjV61: "MJ V6.1",
 			mjV52: "MJ V5.2",
 			mjV51: "MJ V5.1",
 			nijiV6: "Niji V6",
@@ -422,7 +451,17 @@ export default {
     "plsInput": "Lütfen içerik girin!",
     "submitSuccess": "Başarıyla gönderildi!",
     "process": "Video oluşturuluyor...",
-    "repeat": "Yeniden dene"
+    "repeat": "Yeniden dene",
+    "lumainfo": "Açıklama: <ul><li>1. Pro ve rahat demo videoları su işareti olan bağlantılara sahiptir.</li><li>2. Pro su işaretsiz sürüm, 'İndir' düğmesi aracılığıyla indirme bağlantısını almayı gerektirir.</li><li>3. Pro sürümler için bağlantılar zaman sınırlıdır; lütfen MP4 dosyasını yerel olarak zamanında kaydedin.</li><li>4. Pro sürümler için, 30 dakika içinde MP4 dosyasını yerel olarak kaydedin, çünkü kanal engellenebilir veya durdurulabilir.</li><li>5. Pro sürümleri için indirme bağlantısı geçersizse, su işareti olan video bağlantısı sağlanacaktır.</li></ul>",
+    "runwayabout": "Runway ile İlgili",
+    "runwayserver": "Runway API Adresi",
+    "setOpenKeyPlaceholder2": "Runway API anahtarı, isteğe bağlı",
+    "endImg": "Son kare",
+    "runwayinfo": "Açıklama: <ul><li>1. Runway görüntüleri ve videoları geçerlilik süresine sahiptir.</li><li>2. Lütfen video oluşturduktan sonra 30 dakika içinde MP4 dosyasını yerel olarak kaydedin.</li></ul>",
+    "nosup": "Geçici olarak desteklenmiyor",
+    "rwgen2": "Sürüm: Gen-2, maliyet etkin",
+    "rwgen3": "Sürüm: Gen-3 Alpha",
+    "repeat2":"Expired.Reget"
     }
     ,
     dance:{

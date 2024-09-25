@@ -58,6 +58,7 @@ export default {
     avatarLink: 'Avatar Link',
     name: 'Tên',
     description: 'Miêu tả',
+    backgroundImage: 'Ảnh nền',
     role: 'Vai trò',
     temperature: 'Nhiệt độ',
     top_p: 'Top_p',
@@ -191,8 +192,34 @@ export default {
 
     subtle: 'Cao độ phân giải cao gấp 2 lần'
     ,creative: 'Cao độ phân giải cao gấp 2 lần. Sáng tạo'
-    ,gpt_gx: 'GPTs sử dụng g-*'
+    ,gpt_gx: 'GPTs sử dụng g-*',
 
+     "ideoabout": "Về Ideogram",
+    "ideoserver": "Máy chủ Ideogram",
+    "ideokeyPlaceholder": "Khóa API cho Ideogram (tùy chọn)",
+    "ideopls": "Gợi ý mô tả hình ảnh",
+    "nohead": "Không bao gồm",
+
+    klingabout: 'Liên quan đến Kling',
+    klingserver: 'Địa chỉ API Kling',
+    klingkeyPlaceholder: 'API Key Kling (tùy chọn)',
+    klingkey: 'Khóa Kling',
+    mode: 'Chế độ',
+    duration: 'Thời gian',
+    negative_prompt: 'Đặt văn bản không có đối tượng ở đây',
+    std: 'Hiệu suất cao',
+    pro: 'Chất lượng cao',
+    needImg: 'Vui lòng tải lên hình ảnh tham khảo để nó có hiệu lực!',
+    seed: 'Số hạt 1~2147483647',
+    klingInfo: 'Mô tả: <li>1. Chất lượng cao gấp 3,5 lần giá</li> <li>2. 10 giây gấp 2 lần giá</li> <li>3. Khung cuối cùng phải có hình ảnh tham khảo để có hiệu lực</li>'
+
+    ,"camera_type": "Ống kính",
+    "cnull": "Ghép thông minh",
+    "down_back": "Di chuyển xuống và thu nhỏ",
+    "forward_up": "Đẩy tới và di chuyển lên",
+    "right_turn_forward": "Quay phải và đẩy tới",
+    "left_turn_forward": "Quay trái và đẩy tới"
+    ,kling:'Kling'
   },
   "mjset": {
     "server": "Máy chủ",
@@ -357,6 +384,7 @@ export default {
 		},
 		versionList: {
 			mjV6: "MJ V6",
+			mjV61: "MJ V6.1",
 			mjV52: "MJ V5.2",
 			mjV51: "MJ V5.1",
 			nijiV6: "Niji V6",
@@ -424,7 +452,19 @@ export default {
     "plsInput": "Vui lòng nhập nội dung!",
     "submitSuccess": "Đã gửi thành công!",
     "process": "Đang tạo video...",
-    "repeat": "Thử lại"
+    "repeat": "Thử lại",
+
+    "lumainfo": "Giải thích: <ul><li>1. Video demo Pro và relax có liên kết có watermark.</li><li>2. Phiên bản Pro không có watermark cần phải lấy liên kết tải xuống qua nút 'Tải về'.</li><li>3. Các liên kết phiên bản Pro có thời hạn; vui lòng lưu trữ tập tin MP4 vào máy cục bộ kịp thời.</li><li>4. Đối với phiên bản Pro, lưu tập tin MP4 vào máy cục bộ trong vòng 30 phút sau khi tạo ra, vì kênh có thể bị chặn hoặc ngừng hoạt động.</li><li>5. Nếu liên kết tải xuống cho phiên bản Pro không hợp lệ, sẽ cung cấp liên kết video có watermark.</li></ul>",
+    "runwayabout": "Liên quan đến Runway",
+    "runwayserver": "Địa chỉ API Runway",
+    "setOpenKeyPlaceholder2": "Khóa API Runway, không bắt buộc",
+    "endImg": "Hình cuối",
+    "runwayinfo": "Giải thích: <ul><li>1. Các hình ảnh và video của Runway có thời hạn.</li><li>2. Vui lòng lưu trữ tập tin MP4 vào máy cục bộ trong vòng 30 phút sau khi tạo video.</li></ul>",
+    "nosup": "Tạm thời không hỗ trợ",
+    "rwgen2": "Phiên bản: Gen-2, hiệu quả chi phí",
+    "rwgen3": "Phiên bản: Gen-3 Alpha",
+    "repeat2":"Expired.Reget"
+
   }
   ,dance:{
     menu: "Nhảy múa",

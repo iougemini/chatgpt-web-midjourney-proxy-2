@@ -194,8 +194,35 @@ export default {
 
   ,subtle: 'High definition 2x'
   ,creative: 'High definition 2x. Creative'
-  ,gpt_gx: 'GPTs use g-*'
+  ,gpt_gx: 'GPTs use g-*',
+
+  "ideoabout": "About Ideogram",
+  "ideoserver": "Ideogram Server",
+  "ideokeyPlaceholder": "API Key for Ideogram (optional)",
+  "ideopls": "Image description prompts",
+  "nohead": "Excludes",
+
+  klingabout: 'Kling About',
+  klingserver: 'Kling API Address',
+  klingkeyPlaceholder: 'Kling API Key (optional)',
+  klingkey: 'Kling Key',
+  mode: 'Mode',
+  duration: 'Duration',
+  negative_prompt: 'Place text without objects here',
+  std: 'High Performance',
+  pro: 'High Quality',
+  needImg: 'Please upload a reference image for it to take effect!',
+  seed: 'Seed number 1~2147483647',
+  klingInfo: 'Description: <li>1. High Quality is 3.5 times the price</li> <li>2. 10s is 2 times the price</li> <li>3. The last frame must have a reference image to take effect</li>'
   
+  ,"camera_type": "Lens",
+  "cnull": "Smart Matching",
+  "down_back": "Move Down and Zoom Out",
+  "forward_up": "Push Forward and Move Up",
+  "right_turn_forward": "Turn Right and Push Forward",
+  "left_turn_forward": "Turn Left and Push Forward"
+  ,kling:'Kling'
+
   },
   "mjset": {
     "server": "Server",
@@ -362,6 +389,7 @@ export default {
 		},
 		versionList: {
 			mjV6: "MJ V6",
+			mjV61: "MJ V6.1",
 			mjV52: "MJ V5.2",
 			mjV51: "MJ V5.1",
 			nijiV6: "Niji V6",
@@ -433,7 +461,21 @@ export default {
     pending: 'Status: Queued',
     processing: 'Status: Processing',
     download: 'Download',
-    extend: 'Extend'
+    extend: 'Extend',
+
+    "lumainfo": "Explanation: <ul><li>1. Pro and relax demo videos have watermarked links.</li><li>2. Pro without watermark requires obtaining the download link through the 'Download' button.</li><li>3. The links for Pro versions are time-limited; please save the MP4 file locally promptly.</li><li>4. For Pro versions, save the MP4 file locally within 30 minutes after generation, as the channel may be blocked or discontinued.</li><li>5. If the download link for Pro versions is invalid, a watermarked video link will be provided.</li></ul>",
+    "runwayabout": "Runway Related",
+    "runwayserver": "Runway API Endpoint",
+    "setOpenKeyPlaceholder2": "Runway API key, optional",
+    "endImg": "End Frame Image",
+    "runwayinfo": "Explanation: <ul><li>1. Runway images and videos have expiration times.</li><li>2. Please save the MP4 file locally within 30 minutes after generating the video.</li></ul>",
+    "nosup": "Not supported temporarily",
+    "rwgen2": "Version: Gen-2, cost-effective",
+    "rwgen3": "Version: Gen-3 Alpha",
+    "repeat2":"Expired.Reget",
+
+    rwgen3turbo:'Version: Gen-3 Alpha Turbo',
+    gen3a_turbo_img:'Gen-3 Alpha Turbo must image',
 
   },
   dance:{

@@ -41,6 +41,11 @@ export function upImg(file:any   ):Promise<any>
     
 }
 
+export const clearImageBase64= ( str:string)=>{
+    let arr= str.split('base64,',2 )
+    return arr[1]??arr[0];
+}
+
 export const file2blob= (selectedFile: any  )=>{
     return new Promise<{blob:Blob,filename:string}>((resolve, reject) => {
         const reader = new FileReader();
@@ -375,7 +380,10 @@ export const canVisionModel= (model:string)=>{
 export const isCanBase64Model=(model:string)=>{
     //gpt-4o
     //customVisionModel
-    let visionArr=['gemini-pro-vision','gpt-4o','gpt-4o-2024-05-13','gemini-pro-1.5','gpt-4-turbo','gpt-4-turbo-2024-04-09','gpt-4-vision-preview','luma-video','claude-3-5-sonnet-20240620' ,'claude-3-sonnet-20240229','claude-3-opus-20240229', defaultVisionModel() ]
+    if(model.indexOf('gpt-4o')>-1 || ( model.indexOf('gemini')>-1 && model.indexOf('1.5')>-1 ) ){
+        return true
+    }
+    let visionArr=['gemini-pro-vision','gpt-4o-2024-08-06','gpt-4o','gpt-4o-2024-05-13','gpt-4o-mini','gpt-4o-mini-2024-07-18','gemini-pro-1.5','gpt-4-turbo','gpt-4-turbo-2024-04-09','gpt-4-vision-preview','luma-video','claude-3-5-sonnet-20240620' ,'claude-3-sonnet-20240229','claude-3-opus-20240229', defaultVisionModel() ]
     if( homeStore.myData.session.customVisionModel ){ 
         homeStore.myData.session.customVisionModel.split(/[ ,]+/ig).map( (v:string)=>{
             visionArr.push( v.toLocaleLowerCase() )

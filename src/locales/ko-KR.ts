@@ -60,6 +60,7 @@ export default {
     avatarLink: '아바타 링크',
     name: '이름',
     description: '설명',
+    backgroundImage: '배경 이미지',
     role: '역할',
     temperature: '온도',
     top_p: 'Top_p',
@@ -190,8 +191,34 @@ export default {
 
     subtle: '고화질 2배'
     ,creative: '고화질 2배. 창의적'
-    ,gpt_gx: 'GPTs는 g-*를 사용합니다'
+    ,gpt_gx: 'GPTs는 g-*를 사용합니다',
 
+    "ideoabout": "아이디어그램에 대하여",
+    "ideoserver": "아이디어그램 서버",
+    "ideokeyPlaceholder": "아이디어그램의 API 키 (선택 사항)",
+    "ideopls": "이미지 설명 프롬프트",
+    "nohead": "포함하지 않음",
+
+    klingabout: '클링 관련',
+    klingserver: '클링 API 주소',
+    klingkeyPlaceholder: '클링 API 키 (선택 사항)',
+    klingkey: '클링 키',
+    mode: '모드',
+    duration: '지속 시간',
+    negative_prompt: '여기에 객체가 없는 텍스트를 입력하세요',
+    std: '고성능',
+    pro: '고품질',
+    needImg: '효과를 보려면 참조 이미지를 업로드하세요!',
+    seed: '시드 번호 1~2147483647',
+    klingInfo: '설명: <li>1. 고품질은 가격의 3.5배입니다</li> <li>2. 10초는 가격의 2배입니다</li> <li>3. 마지막 프레임은 효과를 위해 참조 이미지가 필요합니다</li>'
+
+    ,"camera_type": "렌즈",
+    "cnull": "스마트 매칭",
+    "down_back": "아래로 이동하고 멀리하기",
+    "forward_up": "앞으로 밀고 위로 이동하기",
+    "right_turn_forward": "오른쪽으로 돌리고 앞으로 밀기",
+    "left_turn_forward": "왼쪽으로 돌리고 앞으로 밀기"
+    ,kling:'Kling'
   },
   "mjset": {
     "server": "서버"
@@ -357,6 +384,7 @@ export default {
 		},
 		versionList: {
 			mjV6: "MJ V6",
+			mjV61: "MJ V6.1",
 			mjV52: "MJ V5.2",
 			mjV51: "MJ V5.1",
 			nijiV6: "Niji V6",
@@ -424,7 +452,19 @@ export default {
     "plsInput": "내용을 입력하세요!",
     "submitSuccess": "성공적으로 제출되었습니다!",
     "process": "비디오 생성 중...",
-    "repeat": "재시도"
+    "repeat": "재시도",
+
+    "lumainfo": "설명: <ul><li>1. Pro 및 relax 데모 비디오는 워터마크가 있는 링크입니다.</li><li>2. 워터마크 없는 Pro 버전은 '다운로드' 버튼을 통해 다운로드 링크를 받아야 합니다.</li><li>3. Pro 버전 링크는 시간 제한이 있으며, MP4 파일을 로컬에 즉시 저장해야 합니다.</li><li>4. Pro 버전은 생성 후 30분 이내에 MP4 파일을 로컬에 저장해야 하며, 채널이 차단되거나 중단될 수 있습니다.</li><li>5. Pro 버전의 다운로드 링크가 무효일 경우 워터마크가 있는 비디오 링크가 제공됩니다.</li></ul>",
+    "runwayabout": "Runway 관련",
+    "runwayserver": "Runway API 주소",
+    "setOpenKeyPlaceholder2": "Runway API 키, 선택 사항",
+    "endImg": "마지막 이미지",
+    "runwayinfo": "설명: <ul><li>1. Runway 이미지 및 비디오는 유효 기간이 있습니다.</li><li>2. 비디오 생성 후 30분 이내에 MP4 파일을 로컬에 저장해주세요.</li></ul>",
+    "nosup": "일시적으로 지원되지 않음",
+    "rwgen2": "버전: Gen-2, 비용 효율적",
+    "rwgen3": "버전: Gen-3 Alpha",
+    "repeat2":"Expired.Reget"
+
   },
   dance:{
     menu: "댄스",
